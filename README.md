@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+Installation and Setup
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Clone the repository
+git clone https://github.com/limuelcavarlezmendoza/task-manager-exam.git
+cd task-manager-exam
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+2. Install dependencies
+npm install
+
+3. Run the project
+npm run dev
+
+
+Coding Practices Applied
+- Vue 3 Composition API with script setup
+- Pinia for state management (options api for readability)
+- Vue Router for navigation (protected routes)
+- Clean folder structure
+- Reusable components
